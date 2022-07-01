@@ -9,4 +9,8 @@ Set your server id in **config.json**, you can also set a category channel in co
 
 If you have created your own category, set the category id in **config.json**, and **delete** the created cathegory by the bot (called "Mod Mail") so the bot won't send the mails throught the created cathegory, only in yours.
 
+### FAQs:
+#### Is quick.db version 7 is like version 9?
+No, quick.db v7 is not like v9. The version 9 is better than v7 because there are new methods: `.deleteAll()` and `.pull()`. Documentation is linked [here](https://quickdb.js.org/).
+
 ###### Fun fact: I created this bot under 30 mins :big_brain:
