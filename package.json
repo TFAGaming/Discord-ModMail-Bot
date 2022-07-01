@@ -1,0 +1,17 @@
+{
+  "name": "modmail-bot-djs-v13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "T.F.A#7524",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.5.3",
+    "discord.js": "^13.8.1",
+    "quick.db": "^9.0.5"
+  }
+}
