@@ -129,7 +129,7 @@ client.on('messageCreate', async (message) => {
       return message.reply({ embeds: [embed], allowedMentions: [{ repliedUser: false }] });
     };
 
-    // If {prefix}ban:
+    // If {prefix}unban:
     if (cmd === "unban") {
       if (!message.member.permissions.has("MANAGE_MESSAGES")) return;
       
@@ -211,13 +211,6 @@ client.on('messageCreate', async (message) => {
 
         return message.reply({ embeds: [embed], allowedMentions: [{ repliedUser: false }] });
       }
-
-      if (!category) {
-        const embed = new MessageEmbed()
-          .setDescription(`The ModMail system is ready, but seems like the category to log your mails has been deleted. :(`);
-
-        return message.reply({ embeds: [embed], allowedMentions: [{ repliedUser: false }] });
-      };
 
       const channel = guild.channels.cache.find((x) => x.name == message.author.id && x.parentId === category.id);
 
