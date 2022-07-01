@@ -1,21 +1,21 @@
 {
-  "prefix": "?", 
+  "prefix": "", 
   
   "client": {
     "secrets": {
-      "TOKEN": "ODY1NjU3NjQzNjU3NDYxNzYw.GY7vje.Aa9y_A92OfCZLc9_Z3Uq9l-DwMecUHE5nbyeS8"
+      "TOKEN": ""
     },
     
     "presence": {
-      "ACTIVITY": "DM me to create a mail!",
-      "TYPE:": "WATCHING",
-      "STATUS": "idle"
+      "ACTIVITY": ",
+      "TYPE:": "",
+      "STATUS": ""
     }
     
   },
   
   "system": {
-    "SERVER_ID": "949620901291368458",
+    "SERVER_ID": "",
     "CATEGORY_ID": ""
   }
 }
