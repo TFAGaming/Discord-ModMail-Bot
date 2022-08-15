@@ -1,3 +1,7 @@
+# **OUT OF SUPPORT, DISCORD.JS V14 HAS BEEN RELEASED.**
+This project is no longer supported, discord.js v14 has been released and I'm out of using discord.js v13. Here's the new project: https://github.com/TFAGaming/DiscordJS-V14-ModMail-Bot
+
+***
 ## © Developers' Paradise - 2022. Project by: T.F.A#7524. Mention him while using this project!
 # MODMAIL BOT V2.0 with DJS V13.
 ### Bot Setup:
